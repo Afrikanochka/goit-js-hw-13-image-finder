@@ -19,6 +19,7 @@ input {
   width: 300px;
 }
 .btn {
+  display: block;
   padding: 15px;
   border-radius: 5px;
   background-color: yellowgreen;
@@ -31,8 +32,11 @@ input {
 .btn:focus {
   background-color: red;
 }
-.search-btn {
+.search-form__btn {
   margin-left: 10px;
+}
+.is-hidden {
+  display: none;
 }
 .gallery {
   display: flex;
@@ -42,4 +46,9 @@ input {
 .material-icons {
   display: flex;
   justify-content: center;
+}
+.photo-card {
+  padding: 5px;
+  margin: 15px;
+  width: calc((100% - 90px) / 3);
 }
